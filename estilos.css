@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(117, 194, 117);
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+}
+
+td{
+    border: 8px solid black;
+    padding:20px;
+}
+p{
+    padding: 20px;
+    font-size: 25px;
+    background-color: white;
+}
+ol{
+    
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+li{
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+section{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: rgb(142, 97, 247);
+    padding: 50px;
+}
+.fondox{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+nav{
+    background-color: black;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+a{
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    padding: 10px;
+    background-color:white;
+    color: black;
+}
