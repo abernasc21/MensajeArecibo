@@ -1,55 +1,140 @@
 body{
-    background-color: rgb(117, 194, 117);
+background-color:rgb(46, 155, 88);
+    margin: 0;
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
-    padding: 50px;
 }
 
 td{
     border: 8px solid black;
     padding:20px;
 }
-p{
+h1{
+    background-color: black;
+    color: white;
+    width: 100%;
     padding: 20px;
-    font-size: 25px;
+}
+p{
+    padding: 50px;
+    font-size: 25px;    
     background-color: white;
 }
 ol{
     
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 li{
     background-color: white;
-    padding: 10px;
-    font-size: 25px;
+    padding: 25px;
+    font-size: 25px;    
 }
 section{
     font-family: 'Roboto Mono', monospace;
     color: white;
-    background-color: rgb(142, 97, 247);
     padding: 50px;
+}
+.codigoPython{
+    
+    background-color: rgb(142, 97, 247);
 }
 .fondox{
     font-family: 'Raleway', sans-serif;
     color: black;
 }
-nav{
+/* ! boton menu */
+header{
     background-color: black;
-    padding: 30px;
+    padding: 10px;
+    padding-bottom:30px; ;
     position: sticky;
     top: 0;
     width: 100%;
 }
-a{
-    padding: 50px;
-    color: white;
-    text-decoration: none;
+nav{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
 }
-a:hover{
-    padding: 10px;
-    background-color:white;
+nav a{
+    font-size: 25px;
+    text-decoration: none;
     color: black;
+    background-color: white;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: white;
+    padding: 20px;
+    transition: 500ms;
+    color: black;
+}
+/* ! boton menu */
+/* *Video */
+video{
+    width: 100%;
+    border: white  30px;
+    border-style: groove;
+}
+/* * */
+
+@media only screen and (max-width: 1188px){
+    body{
+        letter-spacing: 0px;
+    }
+    /* !boton menu */
+    header{
+        height: 100px;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    .enlaces{
+        display: none;
+    }
+    .mostrar{
+        display: block;
+        background-color: white;
+        color:  black;
+    }
+    .btn span{
+        display:block;
+        margin: 5px;
+        width: 60px;
+        height: 7px;
+        background: white;
+    }
+    nav a:hover{
+        background-color: white;
+    }
+    /* !boton menu */
+}
+@media only screen and (max-width: 510px){
+    .codigoPython{
+        padding: 0px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 297px){
+    body{
+        font-size: 5px;
+    }
+    header{
+        padding: 3px;
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 535px){
+    .codigoPython{
+        padding: 0px;
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .codigoPython{
+        padding: 0px;
+        font-size: 5px;
+    }
 }
